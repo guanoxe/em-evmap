@@ -1,0 +1,66 @@
+.logo-title {
+  font-size: 15px;
+  font-weight: bold;
+  color: #808080;
+}
+
+.download-link {
+  margin-left: 10px;
+}
+
+.mapview {
+  margin-top: 0px;
+}
+
+.page-content {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#popup {
+  background-color: beige;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 2px;
+  font-size: 13px;
+}
+
+#popup .cp-info-title {
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#popup .cp-info-row {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.info-panel {
+  width: 30%;
+  height: 40%;
+  position: fixed;
+  background-color: white;
+  bottom: 4px;
+  left: 4px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #808080;
+  border-radius: 6px;
+  padding: 5px;
+
+}
+
+.info-panel .cp-info-title {
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.info-panel .cp-info-row {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.info-panel .key {
+  width: 100px;
+  color: #009de0;
+}

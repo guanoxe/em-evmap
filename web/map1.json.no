@@ -1,0 +1,2371 @@
+{
+  "@context": "http://evmap.koroc.nl/cx",
+  "@graph": [
+    {
+      "@type": "evmap:ChargePoint",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "address": "Rue des Boussines 35 DODO Total Vaux-Chavanne, 6960, Vaux-Chavanne",
+        "city": "Vaux-Chavanne",
+        "country": "BE",
+        "lat": 50.30649,
+        "lon": 5.71292
+      },
+      "name": "Total Vaux-Chavanne",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "allego",
+          "suffix": "svg"
+        },
+        "name": "Allego"
+      },
+      "osm": [
+        "way/103037598"
+      ],
+      "payWith": [
+        "Newmotion card"
+      ],
+      "sources": [
+        "newmotion.com"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "address": "Rue Jean Jaures 33 Near Carrefour, 4430, Ans",
+        "city": "Luik",
+        "country": "BE",
+        "lat": 50.6533,
+        "lon": 5.52852
+      },
+      "name": "Carrefour Luik",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "allego",
+          "suffix": "svg"
+        },
+        "name": "Allego"
+      },
+      "payWith": [
+        "Newmotion card"
+      ],
+      "sources": [
+        "newmotion.com"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "city": "Namen",
+        "country": "BE",
+        "lat": 50.4636,
+        "lon": 4.8877
+      },
+      "name": "Avenue de Luxembourg 1 TOTAL Jambes",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "allego",
+          "suffix": "svg"
+        },
+        "name": "Allego"
+      },
+      "payWith": [
+        "Newmotion card"
+      ],
+      "sources": [
+        "newmotion.com"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "city": "Namen",
+        "country": "BE",
+        "lat": 50.71156,
+        "lon": 4.60467
+      },
+      "name": "Boulevard de l'Europe 3 near Carrefour",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "allego",
+          "suffix": "svg"
+        },
+        "name": "Allego"
+      },
+      "payWith": [
+        "Newmotion card"
+      ],
+      "sources": [
+        "newmotion.com"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "BE",
+        "lat": 50.71819,
+        "lon": 6.11829
+      },
+      "name": "Grensovergang Lichtenbusch A44 Noord",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "allego",
+          "suffix": "svg"
+        },
+        "name": "Allego"
+      },
+      "payWith": [
+        "Newmotion card"
+      ],
+      "roadName": "A44",
+      "sources": [
+        "newmotion.com"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "BE",
+        "lat": 50.71713,
+        "lon": 6.11894
+      },
+      "name": "Grensovergang Lichtenbusch A44 Zuid",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "allego",
+          "suffix": "svg"
+        },
+        "name": "Allego"
+      },
+      "payWith": [
+        "Newmotion card"
+      ],
+      "roadName": "A44",
+      "sources": [
+        "newmotion.com"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "city": "Metz",
+        "country": "FR",
+        "lat": 49.12064,
+        "lon": 6.22015
+      },
+      "name": "Intermarche Metz",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Newmotion card",
+        "Sodetrel card"
+      ],
+      "sources": [
+        "newmotion.com",
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 48.660759,
+        "lon": 5.907556
+      },
+      "name": "Aire de Service de Toul-Chaudeney",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "osm": [
+        "way/141404199"
+      ],
+      "payWith": [
+        "Newmotion card",
+        "Sodetrel card"
+      ],
+      "roadName": "A31",
+      "sources": [
+        "newmotion.com"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 48.9745,
+        "lon": 7.06486
+      },
+      "name": "Aire de Keskastel OUEST",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "osm": [
+        "way/210441272"
+      ],
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A4",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 48.97259,
+        "lon": 7.06864
+      },
+      "name": "Aire de Keskastel EST",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "osm": [
+        "way/210441270"
+      ],
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A4",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 48.72467,
+        "lon": 7.69125
+      },
+      "name": "Aire de Brumath OUEST",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "osm": [
+        "way/495962417"
+      ],
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A4",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 48.721,
+        "lon": 7.69638
+      },
+      "name": "Aire de Brumath EST",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "osm": [
+        "way/310943730"
+      ],
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A4",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "going west",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 49.07393,
+        "lon": 4.79118
+      },
+      "name": "Aire de Valmy le Moulin NORTH",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A4",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "going east",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 49.07209,
+        "lon": 4.78834
+      },
+      "name": "Aire de Valmy le Moulin SOUTH",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A4",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "bientot disponible"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 48.26891,
+        "lon": 5.86037
+      },
+      "name": "Aire de Lorraine Sandaucourt la Trelle",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A31",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 48.26753,
+        "lon": 5.8633
+      },
+      "name": "Aire de Lorraine Sandaucourt les Rappes",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A31",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 47.97733,
+        "lon": 5.4976
+      },
+      "name": "Aire de Montigny le Roi",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A31",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 47.97575,
+        "lon": 5.49903
+      },
+      "name": "Aire de Val de Meuse",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A31",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 47.8155,
+        "lon": 5.22218
+      },
+      "name": "Aire de Langres Perrogney",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A31",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "out of service"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 47.81452,
+        "lon": 5.2257
+      },
+      "name": "Aire de Langres Noidant",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A31",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 47.42285,
+        "lon": 5.17039
+      },
+      "name": "Aire de Dijon Brognon (OUEST)",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A31",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 47.42288,
+        "lon": 5.16868
+      },
+      "name": "Aire de Dijon Brognon (EST)",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A31",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 46.9641,
+        "lon": 4.83599
+      },
+      "name": "Aire de Beaune-Tailly",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A6",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 46.96346,
+        "lon": 4.8382
+      },
+      "name": "Aire de Beaune-Merceuil",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A6",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 46.41982,
+        "lon": 4.86438
+      },
+      "name": "Aire de Mâcon Saint Albain",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A6",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 46.41789,
+        "lon": 4.86506
+      },
+      "name": "Aire de Mâcon La Salle",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A6",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 46.14383,
+        "lon": 4.76772
+      },
+      "name": "Aire de Dracé",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A6",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "unknown"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 46.1361,
+        "lon": 4.76681
+      },
+      "name": "Aire de Taponas",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A6",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 47.03194,
+        "lon": 5.10832
+      },
+      "name": "Aire de Glanon",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A36",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 47.03045,
+        "lon": 5.10851
+      },
+      "name": "Aire du Bois Guillerot",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A36",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "unknown"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 47.32966,
+        "lon": 6.12725
+      },
+      "name": "Aire de Besançon Champoux",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A36",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 47.32583,
+        "lon": 6.1222
+      },
+      "name": "Aire de Besançon Marchaux",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A36",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 47.62768,
+        "lon": 6.86053
+      },
+      "name": "E.Leclerc Belfort",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A36",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 47.75954,
+        "lon": 7.29355
+      },
+      "name": "Intermarché Pfastatt",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A36",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 48.23177,
+        "lon": 7.40345
+      },
+      "name": "Aire du Haut Koenigsbourg",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A35",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 46.49598,
+        "lon": 5.3107
+      },
+      "name": "Aire du Poulet de Bresse",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A39",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "unknown"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 46.10878,
+        "lon": 5.82985
+      },
+      "name": "Réseau Move In Pure - Bellegarde-sur-Valserine",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 45.95685,
+        "lon": 5.83437
+      },
+      "name": "Réseau Move In Pure - Seyssel",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "osm": [
+        "node/4351325779"
+      ],
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 49.14069,
+        "lon": 5.40984
+      },
+      "name": "Station Haudainville",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 49.12097,
+        "lon": 4.24421
+      },
+      "name": "Aire de Reims Champagne Nord",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A4",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 49.11983,
+        "lon": 4.24342
+      },
+      "name": "Aire de Reims Champagne Sud",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A4",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 49.20259,
+        "lon": 4.01357
+      },
+      "name": "E.Leclerc Champfleury",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "description": "niet gezien op streetview",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 49.59331,
+        "lon": 4.50408
+      },
+      "name": "AIRE DES ARDENNES",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A34",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "closed"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "description": "nissan lader gezien op streetview, maar status onduidelijk",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 49.58287,
+        "lon": 3.64379
+      },
+      "name": "Intermarché Laon",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "unknown"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 48.72964,
+        "lon": 4.22912
+      },
+      "name": "Aire de Sommesous",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A26",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "going east",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 48.2141,
+        "lon": 4.2416
+      },
+      "name": "Aire de Troyes Fresnoy le Plessis",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A5",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "unknown"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "going west",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 48.2117,
+        "lon": 4.2415
+      },
+      "name": "Aire de Troyes Fresnoy le Château",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A5",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 48.0565,
+        "lon": 4.96102
+      },
+      "name": "Aire de Chateauvillain EST",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A5",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "description": "verkeerde kant van de weg op Sodetrel kaart?",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 48.05587,
+        "lon": 4.96071
+      },
+      "name": "Aire de Chateauvillain OUEST",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "roadName": "A5",
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 45.69098,
+        "lon": 5.89539
+      },
+      "name": "Réseau Move In Pure | Avenue Daniel Rops Aix-les-Bains",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 45.75886,
+        "lon": 5.70588
+      },
+      "name": "Réseau Move In Pure | D107",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 45.85325,
+        "lon": 5.40702
+      },
+      "name": "Réseau Move In Pure | Rue de Pont",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "all",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 45.83737,
+        "lon": 5.28612
+      },
+      "name": "Réseau Move In Pure | Rue Charles de Gaulle",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "corri-door",
+          "suffix": "svg"
+        },
+        "iconFail": {
+          "@type": "evmap:Icon",
+          "name": "corri-door-red",
+          "suffix": "svg"
+        },
+        "name": "GIREVE Corri-Door"
+      },
+      "payWith": [
+        "Sodetrel card"
+      ],
+      "sources": [
+        "sodetrel.fr"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "going east",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "NL",
+        "lat": 52.07939,
+        "lon": 4.9813
+      },
+      "name": "Fastned Bijleveld",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "fastned",
+          "suffix": "svg"
+        },
+        "name": "Fastned"
+      },
+      "osm": [
+        "node/387321930"
+      ],
+      "payWith": [
+        "Fastned app"
+      ],
+      "roadName": "A12",
+      "sources": [
+        "fastned.nl",
+        "Sander"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "going north",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "NL",
+        "lat": 51.5567735,
+        "lon": 5.3620474
+      },
+      "name": "Fastned Ooiendonk",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "fastned",
+          "suffix": "svg"
+        },
+        "name": "Fastned"
+      },
+      "osm": [
+        "node/4383277848"
+      ],
+      "payWith": [
+        "Fastned app"
+      ],
+      "roadName": "A2",
+      "sources": [
+        "fastned.nl"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "going south",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "NL",
+        "lat": 51.5591013,
+        "lon": 5.3565562
+      },
+      "name": "Fastned Velder",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "fastned",
+          "suffix": "svg"
+        },
+        "name": "Fastned"
+      },
+      "osm": [
+        "node/4383277847"
+      ],
+      "payWith": [
+        "Fastned app"
+      ],
+      "roadName": "A2",
+      "sources": [
+        "fastned.nl"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "going south",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "NL",
+        "lat": 51.2205685,
+        "lon": 5.8091146
+      },
+      "name": "Fastned Ellerbrug",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "fastned",
+          "suffix": "svg"
+        },
+        "name": "Fastned"
+      },
+      "osm": [
+        "way/388650592",
+        "node/3918256186"
+      ],
+      "payWith": [
+        "Fastned app"
+      ],
+      "roadName": "A2",
+      "sources": [
+        "fastned.nl"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "going north",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "NL",
+        "lat": 51.0108706,
+        "lon": 5.80048
+      },
+      "name": "Fastned Swentibold",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "fastned",
+          "suffix": "svg"
+        },
+        "name": "Fastned"
+      },
+      "osm": [
+        "node/3906768630"
+      ],
+      "payWith": [
+        "Fastned app"
+      ],
+      "roadName": "A2",
+      "sources": [
+        "fastned.nl"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "going south",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "NL",
+        "lat": 50.7860308,
+        "lon": 5.7277984
+      },
+      "name": "Fastned Knuvelkes",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "fastned",
+          "suffix": "svg"
+        },
+        "name": "Fastned"
+      },
+      "osm": [
+        "node/3264836068"
+      ],
+      "payWith": [
+        "Fastned app"
+      ],
+      "roadName": "A2",
+      "sources": [
+        "fastned.nl"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "going west",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "NL",
+        "lat": 51.73455,
+        "lon": 5.49283
+      },
+      "name": "Fastned de Geffense Barriere",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "fastned",
+          "suffix": "svg"
+        },
+        "name": "Fastned"
+      },
+      "osm": [
+        "way/387364205"
+      ],
+      "payWith": [
+        "Fastned app"
+      ],
+      "roadName": "A59",
+      "sources": [
+        "fastned.nl"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "going south",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "NL",
+        "lat": 51.68434,
+        "lon": 5.89076
+      },
+      "name": "Fastned Lokkant",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "fastned",
+          "suffix": "svg"
+        },
+        "name": "Fastned"
+      },
+      "osm": [
+        "node/3211292181"
+      ],
+      "payWith": [
+        "Fastned app"
+      ],
+      "roadName": "A73",
+      "sources": [
+        "fastned.nl"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "going north",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "NL",
+        "lat": 51.68336,
+        "lon": 5.89377
+      },
+      "name": "Fastned Hondsiep",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "fastned",
+          "suffix": "svg"
+        },
+        "name": "Fastned"
+      },
+      "osm": [
+        "node/3211288937"
+      ],
+      "payWith": [
+        "Fastned app"
+      ],
+      "roadName": "A73",
+      "sources": [
+        "fastned.nl"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "going west",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "NL",
+        "lat": 51.92394,
+        "lon": 5.60545
+      },
+      "name": "Fastned Varakker",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "fastned",
+          "suffix": "svg"
+        },
+        "name": "Fastned"
+      },
+      "osm": [
+        "node/4461692038"
+      ],
+      "payWith": [
+        "Fastned app"
+      ],
+      "roadName": "A15",
+      "sources": [
+        "fastned.nl"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "going east",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "NL",
+        "lat": 51.92177,
+        "lon": 5.6036
+      },
+      "name": "Fastned Overbroek",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "fastned",
+          "suffix": "svg"
+        },
+        "name": "Fastned"
+      },
+      "payWith": [
+        "Fastned app"
+      ],
+      "roadName": "A15",
+      "sources": [
+        "fastned.nl"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "going west",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "NL",
+        "lat": 51.9397,
+        "lon": 6.18151
+      },
+      "name": "Fastned Geulenkamp",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "fastned",
+          "suffix": "svg"
+        },
+        "name": "Fastned"
+      },
+      "osm": [
+        "node/4242454489"
+      ],
+      "payWith": [
+        "Fastned app"
+      ],
+      "roadName": "A18",
+      "sources": [
+        "fastned.nl"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "going north",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "NL",
+        "lat": 52.0077,
+        "lon": 5.81233
+      },
+      "name": "Fastned de Slenk",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "fastned",
+          "suffix": "svg"
+        },
+        "name": "Fastned"
+      },
+      "osm": [
+        "way/387372477"
+      ],
+      "payWith": [
+        "Fastned app"
+      ],
+      "roadName": "A50",
+      "sources": [
+        "fastned.nl"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "going east",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "NL",
+        "lat": 52.0498,
+        "lon": 5.4647
+      },
+      "name": "Fastned Bloemheuvel",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "fastned",
+          "suffix": "svg"
+        },
+        "name": "Fastned"
+      },
+      "osm": [
+        "way/387355424"
+      ],
+      "payWith": [
+        "Fastned app"
+      ],
+      "roadName": "A12",
+      "sources": [
+        "fastned.nl"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "going south",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "NL",
+        "lat": 52.06399,
+        "lon": 5.60889
+      },
+      "name": "Fastned de Veenen",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "fastned",
+          "suffix": "svg"
+        },
+        "name": "Fastned"
+      },
+      "osm": [
+        "way/387315534"
+      ],
+      "payWith": [
+        "Fastned app"
+      ],
+      "roadName": "A30",
+      "sources": [
+        "fastned.nl"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "going north",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "NL",
+        "lat": 52.06375,
+        "lon": 5.61211
+      },
+      "name": "Fastned de Poel",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "fastned",
+          "suffix": "svg"
+        },
+        "name": "Fastned"
+      },
+      "osm": [
+        "way/387323932"
+      ],
+      "payWith": [
+        "Fastned app"
+      ],
+      "roadName": "A30",
+      "sources": [
+        "fastned.nl"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "going south",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "NL",
+        "lat": 52.01601,
+        "lon": 5.12062
+      },
+      "name": "Fastned de Kroon",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "fastned",
+          "suffix": "svg"
+        },
+        "name": "Fastned"
+      },
+      "osm": [
+        "way/387363916"
+      ],
+      "payWith": [
+        "Fastned app"
+      ],
+      "roadName": "A27",
+      "sources": [
+        "fastned.nl"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:ChargePoint",
+      "accessible": "going north",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "NL",
+        "lat": 50.7775237,
+        "lon": 5.7296055
+      },
+      "name": "Fastned Patiel",
+      "operator": {
+        "@type": "evmap:Operator",
+        "icon": {
+          "@type": "evmap:Icon",
+          "name": "fastned",
+          "suffix": "svg"
+        },
+        "name": "Fastned"
+      },
+      "osm": [
+        "node/3211456208"
+      ],
+      "payWith": [
+        "Fastned app"
+      ],
+      "roadName": "A2",
+      "sources": [
+        "fastned.nl"
+      ],
+      "status": "active"
+    },
+    {
+      "@type": "evmap:Camping",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "FR",
+        "lat": 46.3716694,
+        "lon": 5.8724914
+      },
+      "name": "Camping le Martinet",
+      "osm": [
+        "node/26858816"
+      ]
+    },
+    {
+      "@type": "evmap:Camping",
+      "electricity": "4A",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "country": "LU",
+        "lat": 49.9139,
+        "lon": 6.00149
+      },
+      "name": "Camping Toodlermillen",
+      "osm": [
+        "way/51887095"
+      ],
+      "phone": "00 352 83 91 89"
+    },
+    {
+      "@type": "evmap:Camping",
+      "description": "Prima camping om 1 nacht te blijven, met zwembad",
+      "electricity": "6-16A",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "lat": 48.72029,
+        "lon": 7.22742
+      },
+      "name": "Camping Piscine du Plan Incliné",
+      "phone": "00 333 87 25 30 13 / 00 336 71 21 86 91"
+    },
+    {
+      "@type": "evmap:Camping",
+      "description": "Leuke camping dichtbij Spa, met zwembad en boogschieten",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "lat": 50.41024,
+        "lon": 5.9528
+      },
+      "name": "Camping l'Eau Rouge",
+      "phone": "00 328 086 30 75"
+    },
+    {
+      "@type": "evmap:Camping",
+      "description": "Camping met groot zwembad en glijbaan bij een meer; 180 plaatsen",
+      "electricity": "10A",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "address": "17 rue du Stade, 88560 / St. Maurice-sur-Moselle, Frankrijk",
+        "lat": 47.95434,
+        "lon": 6.81026
+      },
+      "name": "Camping Les Deux Ballons",
+      "phone": "00 333 29 25 17 14"
+    },
+    {
+      "@type": "evmap:Camping",
+      "description": "149 plaatsen; geen zwembad of zwemwater",
+      "electricity": "16A",
+      "location": {
+        "@type": "evmap:GeoPoint",
+        "address": "Chemin du Camping 88, 9022 Ettelbrück Luxemburg",
+        "lat": 49.8461,
+        "lon": 6.08203
+      },
+      "name": "Camping Ettelbruck"
+    }
+  ]
+}

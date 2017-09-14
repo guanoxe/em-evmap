@@ -1,0 +1,13 @@
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%date{ISO8601} %-5level %logger{100} %X{akkaSource} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="akka.stream.impl.io.FilePublisher" level="ERROR"/>
+    <logger name="tools-akka" level="ERROR"/>
+    <root level="debug">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>

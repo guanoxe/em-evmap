@@ -1,0 +1,2017 @@
+body {
+  margin: 0px;
+  font-family: 'Open Sans', HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 12.8px;
+  /*color: #666;*/
+  color: #555;
+}
+
+li {
+  list-style-type: none;
+}
+
+.page-content {
+  /* overflow-x: auto; */
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.page-content li {
+  margin-top: 10px;
+  list-style-type: circle;
+}
+.page-content a {
+  /*color: #009DE0;*/
+  color: #5469a4;
+  /*color: #71a3e5;*/
+}
+
+.page-content .confirm-link {
+  text-decoration: underline;
+  color: #5469a4;
+  display:inline-block;
+}
+
+.indented-container {
+  padding-left:130px;
+  padding-right:130px;
+}
+
+.header-top-strip, .header-location-strip {
+  background-color: #FCFCFC;
+  border-color: #E1E1E1;
+  border-width: 1px;
+  border-top-style: solid;
+  border-bottom-style:solid;
+}
+
+.header-top-strip {
+  height: 20px;
+}
+.header-top-strip ul {
+  margin: 4px 0px;
+  float: right;
+}
+.header-top-strip li {
+  float: left;
+  position: relative;
+  padding: 0px 10px;
+  border-color: #E1E1E1;
+  border-right-style: solid;
+  border-right-width: 1px;
+  line-height: 10px;
+}
+.header-top-strip a {
+  color: #808080;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+.header-top-strip a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.header-logo-strip {
+  height: 80px;
+}
+.header-logo-strip img {
+  margin: 0px;
+}
+
+.header-location-strip {
+  height: 32px;
+}
+
+.header-location-strip p {
+  margin: 6px 0px;/*was 16 */
+}
+
+#page-footer {
+  /*width: 100%;*/
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  font-size:14px;
+  font-style: italic;
+  text-align:right;
+  margin-right: 10px;
+  margin-bottom: 4px;
+}
+
+#page-footer img {
+  vertical-align: -40%;
+}
+
+#page-footer a {
+  text-decoration: none;
+}
+
+.breadcrumb {
+  display:inline-block;
+  font-size: 16px;
+ /* margin-left: 8px;*/
+}
+.breadcrumb p {
+  display:inline-block;
+  margin-right: 5px;
+}
+.breadcrumb a {
+  color: #666666;
+}
+#logged-in-user {
+  display: inline-block;
+  float: right;
+  font-size: 16px;
+}
+
+.login-form input {
+  background-color: #FCFCFC;
+  border-color: #E1E1E1;
+  border-style: solid;
+  border-width: 1px;
+  padding: 8px;
+}
+
+#password-reset-link {
+  margin-top: 50px;
+}
+
+.password-reset-form {
+  margin-top: 50px;
+}
+.password-reset-form input {
+  background-color: #FCFCFC;
+  border-color: #E1E1E1;
+  border-style: solid;
+  border-width: 1px;
+  padding: 8px;
+}
+
+.infobox {
+  width: 430px;
+  height: 125px;
+  float: left;
+  font-size: 16px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 0px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #E1E1E1;
+}
+
+.admin-home-view .infobox {
+  height: 55px;
+  background-color: #fcfcfc;
+}
+
+/*
+.infobox a {
+  color:#009DE0;
+  border-width:1px;
+  border-bottom-style:dotted;
+}
+*/
+
+.infobox-title {
+  font-size: 20px;
+  /*color: #009DE0;*/
+  color: #5469a4;
+  /*color: #71a3e5;*/
+  line-height: 30px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 4px;
+  background-color: #fcfcfc;
+  border-style:none;
+  padding:0px 0px 0px 0px;
+}
+
+.infobox-content {
+  font-size:16px;
+  margin-bottom:20px;
+}
+
+.infobox .pos-balance {
+  color: black;
+}
+
+.infobox .neg-balance {
+  color: red;
+}
+
+.datatable {
+  width:400px;
+  border-collapse:collapse;
+}
+
+.datatable td, .datatable th {
+  /*border: 1px solid #678f39;*/
+  border: 1px solid #bbb;
+  padding:1px 7px 1px 7px;*/
+}
+
+.datatable td {
+  cursor: pointer;
+}
+
+.datatable th {
+  text-align: left;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  /*background-color:#678f39;*/
+  background-color: #e9e9e9;
+  /*color:#ffffff;*/
+  letter-spacing: 1.5px;
+  font-size: 90%;
+  text-transform: uppercase;
+}
+
+.datatable tr.alt td {
+  background-color:#e5eed2;
+}
+
+.datatable tr:hover td {
+  /*background-color:#d3dbc2;*/
+  background-color: #FAFFBD;
+}
+
+.datatable tr.alt:hover td {
+  background-color:#d3dbc2;
+}
+
+.datatable tr td.delete {
+  background-color:#ffffff;
+  border:0px;
+  font-size:12px;
+}
+
+.vehiclerates-table {
+  width:100%;
+}
+
+.form-entry input {
+  background-color:#faffbd;
+}
+
+.form-entry-label {
+  display:inline-block;
+  width: 150px;
+}
+
+.arg {
+  display:inline-block;
+  color: black;
+  padding: 0px;
+}
+
+.divtable .row {
+  background-color:#e5edba;
+  margin:2px;
+  font-size:90%;
+}
+.divtable .row > div {
+  padding:2px;
+  display:inline-block;
+  vertical-align: top;
+}
+.divtable .row p {
+  margin: 0px;
+}
+
+.content-title {
+  font-size: 20px;
+  /*color: #009DE0;*/
+  color: #5469a4;
+  /*color: #71a3e5;*/
+  line-height: 30px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 8px;
+  background-color:white;
+  border-style:none;
+  padding:0px 0px 0px 0px;
+}
+
+.content-title .filter {
+  font-size: 20px;
+  color: #5469a4;
+}
+
+.divtable .event .time {
+  width: 200px;
+}
+
+.divtable .vehicletrip .time {
+  width: 200px;
+}
+.divtable .vehicletrip .column2 {
+  width: 300px;
+}
+.divtable .vehicletrip .column3 {
+  width: 180px;
+}
+.divtable .vehicletrip .column4 {
+  width: 220px;
+}
+
+.vehicletrips-total {
+  text-align: right;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+
+.divtable .passengertrip .time {
+  width: 200px;
+}
+.divtable .passengertrip .column2 {
+  width: 300px;
+}
+.divtable .passengertrip .column3 {
+  width: 180px;
+}
+.divtable .passengertrip .column4 {
+  width: 220px;
+}
+
+.tripsreport1 .row .user {
+  width: 300px;
+}
+.tripsreport1 .row .distance {
+  width: 200px;
+}
+.tripsreport1 .row .duration {
+  width: 180px;
+}
+.tripsreport1 .row .price {
+  width: 220px;
+}
+
+.tripsreport1-total {
+  text-align: right;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+
+.export-link {
+  text-align: right;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.passengertrips-total {
+  text-align: right;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.planning {
+  width: 400px;
+  height: 400px;
+  background-color: #FCFCFC;
+  border-color: #E1E1E1;
+  border-width: 1px;
+  border-style: solid;
+}
+
+
+/*========== dialogs ==========*/
+
+.ok-cancel-dialog {
+  position: fixed;
+  background-color: white;
+  padding: 40px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #bbb;
+  border-radius: 4px;
+  box-shadow: 0 0 12px rgba(0,0,0,.6);
+  color: #5469a4;
+}
+
+.ok-cancel-dialog #content {
+  margin-bottom: 60px;
+}
+
+.ok-cancel-dialog #ok-button {
+  margin-left: 5px;
+  float: right;
+}
+
+.ok-cancel-dialog #cancel-button {
+  margin-left: 5px;
+  float: right;
+}
+
+.yes-no-dialog {
+  position: fixed;
+  background-color: white;
+  padding: 40px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #bbb;
+  border-radius: 4px;
+  box-shadow: 0 0 12px rgba(0,0,0,.6);
+  color: #5469a4;
+}
+
+.yes-no-dialog #content {
+  margin-bottom: 60px;
+}
+
+.yes-no-dialog #yes-button {
+  margin-left: 5px;
+  float: right;
+}
+
+.yes-no-dialog #no-button {
+  margin-left: 5px;
+  float: right;
+}
+
+
+.rate-head {
+}
+.new-button {
+  color: #5469a4;
+  cursor: pointer;
+}
+.delete-button {
+  color: #5469a4;
+  cursor: pointer;
+  float: right;
+}
+
+/*========== basic elements ==========*/
+
+.text-button {
+  display: inline-block;
+  background-color: #f0f0f0;
+  color: #5469a4;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #bbb;
+  border-radius: 3px;
+  padding: 0px 8px;
+  margin-left: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.text-button:hover {
+  border-color: #555;
+}
+
+.img-button {
+  display: inline-block;
+  background-color: white;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.img-button:hover {
+  border-color: #555;
+}
+
+.label {
+  margin-top: 0px;
+  margin-bottom: 3px;
+}
+.filter {
+  font-size: 18px;
+  color: #5469a4;
+}
+
+/*========== dynamic-forms ==========*/
+
+.field-label {
+  display: inline-block;
+  /*background-color: yellowgreen;*/
+}
+
+.field {
+  color: #5469a4;
+  padding: 0px 4px;
+  background-color: #fcfcfc;
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: #aaa;
+  border-radius: 3px;
+  /*
+  border-color: #ddd;
+  border-bottom-width: 1px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  */
+}
+
+.readonly-field {
+  color: #5469a4;
+  padding: 0px 4px;
+  background-color: white;
+
+/*
+  border-style: solid;
+  border-color: #ddd;
+  border-bottom-width: 1px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  */
+}
+
+.field:hover {
+  cursor: pointer;
+  background-color: rgb(250, 255, 189);
+}
+
+.string-field {
+  vertical-align: top;
+  display: inline-block;
+  width: 400px;
+  height: 22px;
+/*  padding: 1px 5px 2px 5px;*/
+}
+
+.string-editor {
+  display: inline-block;
+  padding: 0px;
+  margin: 1px;
+  border-width: 1px;
+  border-style: none;
+  border-color: #bbb;
+  color: #5469a4;
+}
+
+.string-editor input {
+  padding: 2px 6px 3px 6px;
+  color: #5469a4;
+  font-size: 18px;
+  border-style: none;
+  background-color: rgb(250, 255, 189);
+}
+
+.plaintext-field {
+  vertical-align: top;
+  display: inline-block;
+  width: 400px;
+  height: auto;
+}
+
+.plaintext-field .content {
+  overflow-y: hidden;
+}
+
+.plaintext-editor {
+  display: inline-block;
+  padding: 0px;
+  margin: 1px;
+  border-width: 1px;
+  border-style: none;
+  border-color: #bbb;
+  color: #5469a4;
+}
+
+.plaintext-editor textarea {
+  font-family: inherit;
+  padding: 2px 6px 3px 6px;
+  color: #5469a4;
+  font-size: 18px;
+  border-style: none;
+  background-color: rgb(250, 255, 189);
+  width: 100%;
+  height: 100%;
+}
+
+
+.amount-field {
+  vertical-align: top;
+  display: inline-block;
+  width: 400px;
+  height: 22px;
+/*  padding: 1px 5px 2px 5px;*/
+}
+
+.amount-editor {
+  display: inline-block;
+  padding: 0px;
+  margin: 1px;
+  border-width: 1px;
+  border-style: none;
+  border-color: #bbb;
+  color: #5469a4;
+}
+
+.amount-editor span {
+
+}
+
+.amount-editor input {
+  display: inline-block;
+  padding: 2px 6px 3px 6px;
+  color: #5469a4;
+  font-size: 18px;
+  border-style: none;
+  background-color: rgb(250, 255, 189);
+}
+
+.dropdown-field {
+  display: inline-block;
+  width: auto;
+  height: 22px;
+}
+
+.dropdown-icon {
+  margin-left: 4px;
+  float: right;
+  position: relative;
+  top: 6px;
+}
+
+.dropdown-editor {
+  background-color: white;
+  position: absolute;
+  padding: 0px;
+  color: #5469a4;
+}
+
+.dropdown-editor .options {
+  height: 200px;
+  overflow-y: scroll;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ddd;
+}
+
+.dropdown-editor .option {
+  padding: 0px;
+  margin: 0px 10px;
+  white-space: pre;
+}
+
+/*
+.dropdown-editor .option:hover {
+  color: white;
+  background-color: #5469a4;
+  cursor: pointer;
+}
+*/
+
+.dropdown-editor .option.selected {
+  color: white;
+  background-color: #5469a4;
+  cursor: pointer;
+}
+
+.date-field {
+  display: inline-block;
+  width: 220px;
+}
+
+/* date3-field doesn't have field class as well, as it is a container */
+.date3-field {
+  display: inline-block;
+}
+
+.day-dropdown-field {
+  width: auto;
+  margin-right: 5px;
+}
+
+.month-dropdown-field {
+  width: auto;
+  margin-right: 5px;
+  /*padding: 0px;*/
+}
+
+.year-dropdown-field {
+  width: auto;
+  padding: 0px;
+}
+
+.date-editor {
+  width: 300px;
+  background-color: white;
+  padding: 40px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #bbb;
+  border-radius: 4px;
+  box-shadow: 0 0 12px rgba(0,0,0,.6);
+  color: #5469a4;
+}
+
+.date-editor .month-label {
+  display: inline-block;
+  width: 200px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.date-editor .header-row {
+  margin-top: 30px;
+}
+
+.date-editor .cell {
+  display: inline-block;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+}
+
+.date-editor .cell.selected {
+  /*background-color: #abc90b;*/
+  border-style: solid;
+  border-radius: 1px;
+}
+
+.date-editor .header-cell {
+  font-weight: bold;
+  text-align: center;
+}
+
+.date-editor .empty-day-cell {
+  color: white;
+}
+
+.date-editor .day-cell:hover {
+  background-color: rgb(250, 255, 189);
+  cursor: pointer;
+}
+
+.time-field {
+  display: inline-block;
+  width: 70px;
+  height: 22px;
+}
+
+.time-editor {
+  background-color: white;
+  width: 100px;
+  height: 200px;
+  padding: 0px;
+  color: #5469a4;
+}
+
+.time-editor input {
+  padding: 2px 6px 3px 6px;
+  color: #5469a4;
+  font-size: 18px;
+  border-style: none;
+  background-color: rgb(250, 255, 189);
+}
+
+.time-editor .options {
+  background-color: white;
+  height: 200px;
+  overflow-y: scroll;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ddd;
+}
+
+.time-editor .option {
+  padding: 0px;
+  margin-left: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/*
+.time-editor .option:hover {
+  color: white;
+  background-color: #5469a4;
+  cursor: pointer;
+}
+*/
+
+.time-editor .option.selected {
+  color: white;
+  background-color: #5469a4;
+  cursor: pointer;
+}
+
+.checkbox-label input {
+  margin-left: 0px;
+}
+
+.checkbox-field {
+  margin-left: 0px;
+  border-style: none;
+}
+
+.checkbox-field input {
+  margin-left: 0px;
+}
+
+.multi-select-field {
+  display: inline-block;
+  width: auto;
+  height: 22px;
+}
+
+.multi-select-editor {
+  background-color: white;
+  position: absolute;
+  /*width: 100px;*/
+  padding: 0px;
+  color: #5469a4;
+}
+
+.multi-select-editor .options {
+  height: 200px;
+  overflow-y: scroll;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ddd;
+}
+
+.multi-select-editor .option {
+  padding: 0px;
+  margin: 0px 10px;
+}
+
+
+.multi-select-editor .option:hover {
+  color: white;
+  background-color: #5469a4;
+  cursor: pointer;
+}
+
+/*========== mypage ==========*/
+
+.mypage-infobox {
+  /*
+  width: 130px;
+  height: 180px;
+  margin-top: 20px;
+  margin-right: 180px;
+  */
+  
+  display: inline-block;
+  width: 260px;
+  height: 290px;
+  margin-top: 50px;
+  margin-right: 90px;
+  
+  
+  margin-left: 0px;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+.mypage-infobox a {
+  color: #2d5c88;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+/*
+.mypage-infobox {
+  width: 430px;
+  height: 140px;
+  float: left;
+  font-size: 16px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 0px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #E1E1E1;
+}
+
+.mypage-infobox img {
+  margin: 5px;
+  float: right;
+}
+*/
+
+/*========== MGFRONTEND ==========*/
+
+#actionbar {
+  /*clear: right;*/
+  height: 30px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+#actionbar .text-button {
+  /*float: right;*/
+  margin-left: 0px;
+  margin-right: 5px;
+}
+
+
+/*========== users-view ==========*/
+
+.users-view {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.admin-users .datatable {
+  width: 100%;
+}
+
+.admin-users .neg-balance {
+  color: red;
+}
+
+
+/*========== user-view ==========*/
+
+.user-view {
+  margin-top: 40px;
+  margin-bottom: 200px;
+}
+
+.user-view p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.user-view .title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.user-view .field-label {
+  width: 220px;
+}
+
+.user-view .string-field {
+  width: 400px;
+}
+
+.user-view .multi-select-field {
+  width: 400px;
+}
+
+.user-view .date-field {
+  width: 200px;
+}
+
+.user-view .time-field {
+  width: 50px;
+  margin-left: 10px;
+}
+
+.user-view #email {
+  margin-top: 0px;
+}
+
+.user-view #gender {
+  margin-top: 30px;
+}
+
+.user-view #street {
+  margin-top: 30px;
+}
+
+.user-view #isDriver {
+  margin-top: 30px;
+}
+
+.user-view #ibanNr {
+  margin-top: 30px;
+}
+
+.user-view #actionCode {
+  margin-top: 30px;
+}
+
+.user-view .roles-field {
+  width: 400px;
+  /*height: 60px;*/
+  display: inline-block;
+  vertical-align: top;
+}
+
+.user-view .role {
+  color: #5469a4;
+
+/*
+  border-style: solid;
+  border-width: 1px;
+  border-color: #aaa;
+  border-radius: 3px;
+  margin-bottom: 2px;
+*/
+}
+
+/*========== vehicles-view ==========*/
+
+.vehicles-view {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+
+/*========== vehicle-view ==========*/
+
+.vehicle-view {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.vehicle-view p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.vehicle-view .title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.vehicle-view .field-label {
+  width: 220px;
+}
+
+
+/*========== admin-nfc-cards ==========*/
+
+.admin-nfc-cards {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.admin-nfc-cards .datatable {
+  table-layout: fixed;
+  width: 600px;
+}
+
+.admin-nfc-cards .datatable td.nfcID {
+  font-family: monospace;
+  font-size: 16px;
+}
+
+.admin-nfc-cards .datatable th.nfcID {
+  width: 120px;
+}
+
+.admin-nfc-cards .datatable th.cardID {
+  width: 150px;
+}
+
+.admin-nfc-cards #nfc-card-table {
+/*  border-style: solid;
+  border-color: #bbb;
+  border-width: 0px 1px 1px 0px;*/
+  width: min-content;
+  height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.admin-nfc-cards #new-card {
+  width: 600px;
+  margin-top: 30px;
+  border: 1px solid #bbb;
+  padding: 10px
+}
+.admin-nfc-cards #new-card .field {
+  width: 200px;
+}
+
+.admin-nfc-cards p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.admin-nfc-cards #new-card .field-label {
+  width: 220px;
+}
+
+.admin-nfc-cards #new-card #create-button {
+  margin-left: 0px;
+}
+
+.admin-nfc-cards #csv-import {
+  width: 600px;
+  margin-top: 30px;
+  border: 1px solid #bbb;
+  padding: 10px
+}
+
+.admin-nfc-cards #csv-import #read-button {
+  margin-left: 0px;
+}
+
+
+
+/*========== admin-nfc-card ==========*/
+
+.admin-nfc-card {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.admin-nfc-card p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.admin-nfc-card .title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.admin-nfc-card .field-label {
+  width: 220px;
+}
+
+.admin-nfc-card #create-button {
+  margin-left: 0px;
+}
+
+
+/*========== admin-carboxes ==========*/
+
+.admin-carboxes {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.admin-carboxes #new-card #create-button {
+  margin-left: 0px;
+}
+
+
+/*========== admin-carbox ==========*/
+
+.admin-carbox {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.admin-carbox p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.admin-carbox .title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.admin-carbox .field-label {
+  width: 220px;
+}
+
+.admin-carbox #create-button {
+  margin-left: 0px;
+}
+
+
+
+/*========== admin-carbox-console ==========*/
+
+.admin-carbox-console .statebutton {
+  background-color: #f5f5f5;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #bbb;
+  border-radius: 2px;
+  padding: 3px 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.admin-carbox-console .carbox-info {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 2px;
+  margin-left: 10px;
+  font-size: 18px;
+  color: #5469a4;
+}
+
+.admin-carbox-console .text-button {
+  margin-bottom: 10px;
+}
+
+/*========== vehicle-timeline ==========*/
+
+
+.vehicle-timeline #top-bar {
+  margin-bottom: 20px;
+}
+
+.vehicle-timeline #top-bar .text-button {
+  margin-left: 0px;
+  margin-right: 5px;
+}
+
+.vehicle-timeline #top-bar .img-button {
+  float: right;
+}
+
+.vehicle-timeline .events-map {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 0px 0px;
+}
+
+.vehicle-timeline .events-view {
+  display: inline-block;
+  background: white;
+/*  
+  position: fixed;
+  left: 140px;
+  bottom: 50px;
+  width: 250px;
+  height: 500px;
+  */
+  /*
+  padding: 5px 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(221,221,221);
+  */
+}
+
+.vehicle-timeline .routebar:hover {
+  cursor:pointer;
+}
+
+.vehicle-timeline .routebar {
+  stroke-width: 1;
+  stroke: rgba(163,183,35,0.7);
+  fill: rgba(185,208,40,0.7);
+}
+/*
+.routebar:hover {
+  fill: rgba(218,245,47,0.7);
+}
+*/
+
+.vehicle-timeline .trip.bar.driver {
+  stroke-width: 1;
+  stroke: rgb(81,116,166);
+  fill: rgb(112,159,228);
+  cursor: pointer;
+}
+
+.vehicle-timeline .trip.bar.driver.invalid {
+  stroke: red;
+}
+
+.vehicle-timeline .trip.bar.passenger {
+  stroke-width: 1;
+  stroke: #ec8210;
+  fill: #eca355;
+  cursor: pointer;
+}
+
+.vehicle-timeline .marker.vehicle-location {
+  stroke-width: 1;
+  stroke: rgba(163,183,35,0.7);
+  fill: rgba(185,208,40,0.7);
+  cursor: pointer;
+}
+
+.vehicle-timeline .marker.driver-checked-in {
+  stroke-width: 1;
+  stroke: rgb(81,116,166);
+  fill: rgb(112,159,228);
+  cursor: pointer;
+}
+
+.vehicle-timeline .marker.driver-checked-out {
+  stroke-width: 1;
+  stroke: rgb(81,116,166);
+  fill: rgb(112,159,228);
+  cursor: pointer;
+}
+
+.vehicle-timeline .marker.passenger-checkedin {
+  stroke-width: 1;
+  stroke: #ec8210;
+  fill: #eca355;
+  cursor: pointer;
+}
+
+.vehicle-timeline .marker.passenger-checkedout {
+  stroke-width: 1;
+  stroke: #ec8210;
+  fill: #eca355;
+  cursor: pointer;
+}
+
+
+.vehicle-timeline .vehicletrip.segment {
+  fill: rgba(255,255,255,0.0);
+}
+
+.vehicle-timeline .vehicletrip:hover {
+  fill: rgb(125,178,255);
+}
+
+.vehicle-timeline .passengertrip.segment {
+  fill: rgba(255,255,255,0.0);
+}
+
+.vehicle-timeline .passengertrip:hover {
+  fill: #ffb05c;
+}
+
+
+.vehicle-timeline .infopanel {
+  position: fixed;
+  background: white;
+  right: 0px;
+  bottom: 0px;
+  width: 450px;
+  height: 300px;
+  padding: 10px 10px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(221,221,221);
+}
+
+.vehicle-timeline .infopanel {
+  font-size: 16px;
+  color: #666;
+}
+
+.vehicle-timeline .infopanel .title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.vehicle-timeline .legenda {
+  height: 500px;
+}
+
+.vehicle-timeline .legenda .symbols {
+  margin-bottom: 20px;
+}
+
+.vehicle-timeline .legenda .symbols .col1 {
+  text-align: center;
+  padding-right: 10px;
+}
+
+.vehicle-timeline .legenda .actions .col1 {
+  padding-right: 10px;
+  font-style: italic;
+}
+
+.vehicle-timeline .infopanel.events-map {
+  width: 70%;
+  height: 70%;
+}
+
+.vehicle-timeline .infopanel.route .map {
+  margin-top: 10px;
+  width: 100%;
+  height: 300px;
+}
+
+.vehicle-timeline .infopanel.trip {
+  height: 650px;
+  width: 700px;
+}
+.vehicle-timeline .infopanel.trip .events-map {
+  width: 700px;
+  height: 340px;
+}
+
+.vehicle-timeline .infopanel.vehicletripsegment {
+  height: 300px;
+}
+
+.vehicle-timeline .infopanel.vehicleclaim {
+  height: 200px;
+}
+
+.vehicle-timeline .infopanel.vehicleunclaim {
+  height: 200px;
+}
+
+.vehicle-timeline .infopanel.passengertrip {
+  height: 300px;
+}
+
+.vehicle-timeline .infopanel.passengertripsegment {
+  height: 300px;
+}
+
+.vehicle-timeline .infopanel.passengercheckin {
+  height: 200px;
+}
+
+.vehicle-timeline .infopanel.passengercheckout {
+  height: 200px;
+}
+
+.vehicle-timeline .infopanel .text-button {
+  margin-left: 0px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.vehicle-timeline .infotable {
+  width: 100%;
+  /*
+  border-collapse: collapse;
+  border: 1px solid rgb(221,221,221);
+  */
+}
+
+.vehicle-timeline .infotable td {
+  /*border: 1px solid rgb(221,221,221);*/
+}
+
+.vehicle-timeline .infotable .col1 {
+  /*background: #E5EDBA;*/
+  background: #eaeaea;
+  padding: 2px 5px;
+  width: 180px;
+}
+.vehicle-timeline .infotable .col2 {
+  background: #eaeaea;
+  padding: 2px 5px;
+}
+
+
+/*========== trip-view ==========*/
+
+.trip-view {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.trip-view #selectbar {
+  margin-bottom: 20px;
+}
+
+.trip-view .total {
+  text-align: right;
+}
+
+.trip-view .trip-row {
+  background-color: #eee;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.trip-view .col1 {
+  display: inline-block;
+  width: 200px;
+}
+
+.trip-view .col2 {
+  display: inline-block;
+  width: 320px;
+}
+
+.trip-view .col3 {
+  display: inline-block;
+  width: 180px;
+}
+
+.trip-view .col4 {
+  display: inline-block;
+  width: 130px;
+}
+
+/*========== calendar ==========*/
+
+#calendar-header .row1 {
+}
+
+#calendar-header #row2 {
+  margin: 6px 0px 8px;
+}
+
+#new-reservation-button {
+  margin: 0px;
+}
+
+.balance-warning-dialog .title {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.balance-warning-dialog p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+#calnav {
+  clear: right;
+  float: right;
+}
+
+#weekview-body-container {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.weekday-background {
+}
+
+.vehicle-reservation:hover {
+  cursor:pointer;
+}
+
+.vehicle-reservation .rect {
+  stroke: #2c91c4;
+  fill: white;
+  stroke-width: 2px;
+}
+
+/*
+.vehicle-reservation .rect.own {
+  stroke-width: 3px;
+}
+
+.vehicle-reservation .rect.full {
+  stroke: #2c91c4;
+  fill: #009fe3;
+}
+
+.vehicle-reservation .rect.seats-available {
+  stroke: #849c09;
+  fill: #abc90b;
+}
+
+.vehicle-reservation .rect.needs-driver {
+  stroke: #bf4a0b;
+  fill: #ea5a0d;
+}
+*/
+.vehicle-reservation .label {
+  font-family: sans-serif;
+  font-size: 14px;
+  fill: #444;
+}
+
+.day-label {
+  text-anchor: middle;
+  dominant-baseline: central;
+  font-family: sans-serif;
+  font-size: 12px;
+  fill: #444444;
+}
+
+/*========== vehicle reservation dialog ==========*/
+
+.vehicle-reservation-dialog {
+  position: fixed;
+  background-color: white;
+  padding: 30px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #bbb;
+  border-radius: 4px;
+  box-shadow: 0 0 12px rgba(0,0,0,.6);
+  /*color: #5469a4;*/
+}
+
+.vehicle-reservation-dialog p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.vehicle-reservation-dialog .title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.vehicle-reservation-dialog .field-label {
+  width: 120px;
+}
+
+.vehicle-reservation-dialog .field-box {
+  width: 400px;
+}
+
+.vehicle-reservation-dialog .string-field {
+  width: 400px;
+}
+
+.vehicle-reservation-dialog .plaintext-field {
+  width: 400px;
+  /*height: 100px;*/
+}
+
+.vehicle-reservation-dialog .date-field {
+  /*width: 220px;*/
+}
+
+.vehicle-reservation-dialog .time-field {
+  /*width: 70px;*/
+  margin-left: 10px;
+}
+
+.vehicle-reservation-dialog #tripType {
+  margin-top: 20px;
+}
+
+.vehicle-reservation-dialog #driver {
+  margin-top: 20px;
+}
+
+
+
+.seat-available {
+  color: #abc90b;
+}
+
+.dropdown-editor .seat-available {
+  color: #abc90b;
+}
+
+.dropdown-editor .seat-available.selected {
+  color: #abc90b;
+}
+
+.vehicle-reservation-dialog .dropdown-field {
+  width: 400px;
+}
+
+
+.vehicle-reservation-dialog .text-button {
+  margin-top: 30px;
+  margin-left: 0px;
+}
+
+.vehicle-reservation-dialog #save-button {
+  float: right;
+}
+
+/*========== registration form ==========*/
+
+.registrationform {
+  margin-top: 40px;
+}
+
+.registrationform p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.registrationform .title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.registrationform .field-label {
+  width: 190px;
+}
+
+.registrationform .string-field {
+  width: 400px;
+}
+
+.registrationform .date-field {
+  /*width: 200px;*/
+}
+
+.registrationform .time-field {
+  /*width: 50px;*/
+  margin-left: 10px;
+}
+
+
+.registrationform .introText {
+  font-style: italic;
+}
+
+.registrationform #introText1 {
+  margin-top: 5px;
+}
+
+.registrationform #gender {
+  margin-top: 30px;
+}
+
+
+.registrationform #check1 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.registrationform #emailText {
+  font-style: italic;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.registrationform #ibanText {
+  font-style: italic;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.registrationform #volunteerDriver {
+  margin-top: 30px;
+}
+
+.registrationform #check3 {
+  margin-top: 10px;
+}
+
+.registrationform #check2 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.registrationform #actionCode {
+  margin-top: 30px;
+}
+
+.registrationform #referrer {
+  margin-bottom: 30px;
+}
+
+.registrationform #check5text {
+  margin-top: 30px;
+}
+
+.registrationform #check6 {
+  margin-top: 30px;
+}
+
+
+.registrationform #register-button {
+  /*float: right;*/
+  margin: 30px 10px 50px 0px;
+}
+
+/*========== my-balance ==========*/
+
+.my-balance {
+  margin-top: 40px;
+}
+
+.my-balance #balance {
+  font-weight: bold;
+}
+
+.my-balance #pay-button {
+  margin-left: 0px;
+}
+
+/*========== start-pay-dialog ==========*/
+
+
+.start-pay-dialog {
+  width: 400px;
+  height: 300px;
+  background-color: white;
+  position: absolute;
+  padding: 30px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #bbb;
+  border-radius: 4px;
+  box-shadow: 0 0 12px rgba(0,0,0,.6);
+  /*color: #5469a4;*/
+}
+
+.start-pay-dialog p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.start-pay-dialog .title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.start-pay-dialog .field-label {
+  width: 160px;
+}
+
+.start-pay-dialog #automatic-check {
+  margin-top: 40px;
+}
+
+.start-pay-dialog #automatic-check input {
+  margin-left: 0px;
+}
+
+.start-pay-dialog #ok-cancel {
+  float: right;
+  margin-top: 80px;
+}
+
+
+
+/*========== my-rfp ==========*/
+
+.my-rfp p {
+  margin-top: 50px;
+}
+.my-rfp .text-button {
+  margin-left: 0px;
+}
+
+/*========== admin-pay-transactions ==========*/
+
+.admin-pay-transactions {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.admin-pay-transactions #selectbar {
+  margin-bottom: 0px;
+}
+
+.admin-pay-transactions .total {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.admin-pay-transactions .row {
+  background-color: #eee;
+  margin-top: 3px;
+}
+
+.admin-pay-transactions .col1 {
+  display: inline-block;
+  width: 220px;
+}
+
+.admin-pay-transactions .col2 {
+  display: inline-block;
+  width: 320px;
+}
+
+.admin-pay-transactions .col3 {
+  display: inline-block;
+  width: 120px;
+}
+
+.admin-pay-transactions .col4 {
+  display: inline-block;
+  width: 200px;
+}
+
+.admin-pay-transactions .col5 {
+  display: inline-block;
+  width: 150px;
+}
+
+
+/*========== admin-status ==========*/
+
+.admin-status {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.admin-status .datatable {
+  width: 100%;
+}
+
+.admin-status td.warn {
+  color: red;
+}
+
+/*========== admin-rates ==========*/
+
+.admin-rates .stmt1 {
+  margin-left: 0px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  border-color: #aaa;
+  padding: 5px;
+}
+
+.admin-rates .stmt2 {
+  margin-left: 25px;
+}
+
+.admin-rates .stmt3 {
+  margin-left: 25px;
+}
+
+/*
+.admin-rates .stmt:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ccc;
+}
+
+.admin-rates .aap {
+  padding: 50px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
+  background-color: yellowgreen;
+
+}
+
+.admin-rates .s1 {
+  display: inline-block;
+}
+
+.admin-rates .s1:hover {
+  background-color: #cc0;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  border-color: #aaa;
+}
+
+.admin-rates .s1_1 {
+  display: inline-block;
+  position: relative;
+  left: 20px;
+}
+.admin-rates .s1_1:hover {
+  background-color: #cc0;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  border-color: #aaa;
+}
+
+.admin-rates .s2 {
+  display: inline-block;
+}
+.admin-rates .s2:hover {
+  margin: 1px 3px;
+  padding: 0px 2px;
+  background-color: #00dd00;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  border-color: #aaa;
+}
+
+.admin-rates .s3 {
+  display: inline-block;
+}
+.admin-rates .s3:hover {
+  margin: 1px 3px;
+  padding: 0px 2px;
+  background-color: #00ff00;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  border-color: #aaa;
+}
+
+.admin-rates .div2 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+
+.admin-rates .ratestmt0 {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  border-color: #ccc;
+}
+
+.admin-rates .ratestmt1 {
+  margin-left: 30px;
+}
+
+.admin-rates .ratestmt2 {
+  margin-left: 30px;
+}
+  */
